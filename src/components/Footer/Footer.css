@@ -1,0 +1,7 @@
+.shop__footer{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
