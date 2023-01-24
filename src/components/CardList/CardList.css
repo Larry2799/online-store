@@ -1,6 +1,17 @@
-.cardList-container{
-    display: flex;
-    flex-direction: column;
+.cardList__container {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  flex: 1 1 auto;
+  max-width: 100%;
 }
 
-
+.cardList__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 80px;
+  max-width: 100%;
+  background-color: white;
+}
