@@ -1,7 +1,7 @@
-.shop__footer{
-    display: flex;
-    max-width: 100%;
-    justify-content: center;
-    height: 50px;
-    align-items: center;
+.shop__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  max-width: 100%;
 }

@@ -1,19 +1,17 @@
-.cardList__container{
-    max-width: 100%;
-    display: flex;
-    text-align: start;
-    align-items: center;
-    flex: 1 1 auto;
+.cardList__container {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  flex: 1 1 auto;
+  max-width: 100%;
 }
 
-.cardList__items{
-    max-width: 100%;
-    margin: 0 80px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color:white;
+.cardList__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 80px;
+  max-width: 100%;
+  background-color: white;
 }
-
-

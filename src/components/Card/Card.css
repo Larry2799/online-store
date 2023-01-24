@@ -1,72 +1,68 @@
-.card__container{
-    width: 275px;
-    height: 324px;
-    margin: 15px;
+.card__container {
+  margin: 15px;
+  width: 275px;
+  height: 324px;
 }
 
-.card__image img{
-    width: 275px;
-    height: 206px;
-    object-fit: fill ;
-    border-radius: 2px;
-    margin: 10px 0 ;
+.card__image img {
+  margin: 10px 0;
+  width: 275px;
+  height: 206px;
+  object-fit: fill;
+  border-radius: 2px;
 }
 
-.card__description{
-    line-height: 19px;
-    font-family: "Open Sans",system-ui,sans-serif;
-    font-size: 13px;
+.card__description {
+  line-height: 19px;
+  font-size: 13px;
+  font-family: "Open Sans", system-ui, sans-serif;
 }
 
-.card__price{
-    width: 200px;
-    margin:  5px -1px;
-    display: flex;
-    align-items:center;
-
-
+.card__price {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin: 5px -1px;
 }
 
-.usd__price{
-    margin-left: -3px;
-    padding: 2px 5px 1px;
-    background-color: rgb(255, 229, 158);
-    border-radius: 4px;
-    font-size: 15px;
-    font-weight: 700;
+.usd__price {
+  margin-left: -3px;
+  padding: 2px 5px 1px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgb(255, 229, 158);
 }
 
-.byn__price{
-    justify-content: center;
-    color: grey;
-    font-size: smaller;
-    padding: 6px;
-
+.second__price {
+  justify-content: center;
+  padding: 6px;
+  font-size: smaller;
+  color: grey;
 }
 
-.main__description{
-    max-width: 245px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    font-family: "Open Sans",system-ui,sans-serif;
-    line-height: 20px;
-    cursor: pointer;
-    color:#0e88df;
-    outline: none;
+.main__description {
+  max-width: 245px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 20px;
+  font-family: "Open Sans", system-ui, sans-serif;
+  cursor: pointer;
+  outline: none;
+  color: #0e88df;
 }
 
-.card__summary{
-    box-sizing: border-box;
+.card__summary {
+  box-sizing: border-box;
 }
 
-.save__img{
-    height: 21px;
-    width: 16px;
-
+.save__img {
+  height: 21px;
+  width: 16px;
 }
 
-.description{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+.description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }

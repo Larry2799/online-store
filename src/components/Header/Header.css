@@ -1,12 +1,11 @@
-.shop__header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width:auto;
-    padding:  15px;
-    max-width: 100%;
-    font-weight: bold ;
-    font-family: "Comic Sans MS";
-    font-size: large;
-
+.shop__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: auto;
+  max-width: 100%;
+  font-weight: bold;
+  font-family: "Comic Sans MS", serif;
+  font-size: large;
 }
