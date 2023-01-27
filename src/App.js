@@ -1,17 +1,15 @@
 import React from "react";
-import cars from "./constants/car/carsInfo";
-import CardList from "./components/CardList/CardList";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
 import "./App.css";
+import Router from "./components/Router";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="wrapper">
-      <Header />
-      <CardList cars={cars} />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="center-container">
+        <Router />
+      </div>
+    </BrowserRouter>
   );
 }
 export default App;

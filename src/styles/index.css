@@ -20,6 +20,7 @@ code {
 
 #root{
   display: flex;
+  background-color: cornsilk ;
 
 }
 html, body{

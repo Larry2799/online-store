@@ -1,0 +1,11 @@
+.active{
+    color: coral;
+    cursor: crosshair;
+}
+.menu__link{
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Monaco, emoji;
+    font-size: larger;
+}

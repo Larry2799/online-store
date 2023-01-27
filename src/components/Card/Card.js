@@ -21,7 +21,7 @@ const Card = ({
     engine,
     mileage,
   });
-  const secondaryCurrency = CURRENCY.EUR;
+  const secondaryCurrency = CURRENCY.BYN;
   const secondaryPrice = buildSecondaryPrice(price.value, secondaryCurrency);
 
   return (

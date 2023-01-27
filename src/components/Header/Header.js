@@ -1,8 +1,21 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
-  return <div className="shop__header"></div>;
+  return (
+    <header className="header">
+      <NavLink className="menu__link" to="/">
+        Home
+      </NavLink>
+      <NavLink className="menu__link" to="/filters">
+        Search filter
+      </NavLink>
+      <NavLink className="menu__link" to="/profile">
+        Profile
+      </NavLink>
+    </header>
+  );
 };
 
 export default Header;
