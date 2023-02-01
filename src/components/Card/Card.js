@@ -1,6 +1,9 @@
 import React from "react";
 import "./Card.css";
-import { stringifyDescription, buildSecondaryPrice } from "./summaryBuilder";
+import {
+  stringifyDescription,
+  buildSecondaryPrice,
+} from "./services/summaryBuilder";
 import { ICONS } from "../../constants/icons";
 import { CURRENCY } from "../../constants/currency";
 

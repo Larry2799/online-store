@@ -3,4 +3,11 @@
     padding: 5px;
     width: 100%;
     max-width: 1400px;
+    flex: 1 1 auto;
+
 }
+ .wrapper{
+     display: flex;
+     min-height: 100%;
+     flex-direction: column;
+ }

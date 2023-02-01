@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <div className="center-container">
+      <div className="wrapper">
         <Router />
       </div>
     </BrowserRouter>

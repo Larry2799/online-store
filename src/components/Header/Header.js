@@ -1,20 +1,16 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "./Header.css";
+import UserNavigation from "./components/UserNavigation";
+import logo from "../../assets/images/png/bmw-logo.png";
+import * as S from "./Header.style";
 
 const Header = () => {
   return (
-    <header className="header">
-      <NavLink className="menu__link" to="/">
-        Home
-      </NavLink>
-      <NavLink className="menu__link" to="/filters">
-        Search filter
-      </NavLink>
-      <NavLink className="menu__link" to="/profile">
-        Profile
-      </NavLink>
-    </header>
+    <S.HeaderContainer>
+      <S.Logo to="/">
+        <img src={logo} alt="BMW logo" />
+      </S.Logo>
+      <UserNavigation />
+    </S.HeaderContainer>
   );
 };
 

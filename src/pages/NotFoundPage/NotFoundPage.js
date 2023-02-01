@@ -1,5 +1,8 @@
 import React from "react";
+import * as S from "./NotFoundPage.style";
 
-export const NotFoundPage = () => {
-  return <div>PAGE NOT FOUND</div>;
+const NotFoundPage = () => {
+  return <S.NotFoundPageContainer>PAGE NOT FOUND</S.NotFoundPageContainer>;
 };
+
+export default NotFoundPage;

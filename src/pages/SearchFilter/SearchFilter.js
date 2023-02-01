@@ -1,9 +1,11 @@
-import "./SearcFilter.css";
+import * as S from "./SearchFilter.style";
 
-export const SearchFilter = () => {
+const SearchFilter = () => {
   return (
-    <div className="SearchFilter__container">
-      <h1>Here will be</h1>
-    </div>
+    <S.SearchFilterContainer>
+      <h1>SearchFilter</h1>
+    </S.SearchFilterContainer>
   );
 };
+
+export default SearchFilter;

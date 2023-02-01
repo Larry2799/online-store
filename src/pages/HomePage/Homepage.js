@@ -2,6 +2,8 @@ import cars from "../../constants/car/carsInfo";
 import CardList from "../../components/CardList/CardList";
 import React from "react";
 
-export const Homepage = () => {
+const Homepage = () => {
   return <CardList cars={cars} />;
 };
+
+export default Homepage;

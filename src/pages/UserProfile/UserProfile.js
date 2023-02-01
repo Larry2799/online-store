@@ -1,9 +1,11 @@
-import "./UserProfile.css";
+import * as S from "./UserProfile.style";
 
-export const Profile = () => {
+const Profile = () => {
   return (
-    <div className="user-profile">
-      <h1>Here will be UserProfile</h1>
-    </div>
+    <S.UserProfileContainer>
+      <h1>UserProfile</h1>
+    </S.UserProfileContainer>
   );
 };
+
+export default Profile;

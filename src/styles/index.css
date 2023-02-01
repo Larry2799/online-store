@@ -18,11 +18,11 @@ code {
   box-sizing: border-box;
 }
 
-#root{
-  display: flex;
-  background-color: cornsilk ;
-
-}
 html, body{
   height: 100%;
 }
+
+#root{
+  height: 100%;
+}
+
