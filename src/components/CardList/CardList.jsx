@@ -1,16 +1,16 @@
 import React from "react";
 import Card from "../Card/Card";
-import "./CardList.css";
+import * as S from "./CardList..style";
 
 const CardList = ({ cars }) => {
   return (
-    <div className="cardList__container">
-      <div className="cardList__items">
+    <S.CardListContainer>
+      <S.CardListItems>
         {cars.map((car, index) => (
           <Card key={car.id} {...car} index={index}></Card>
         ))}
-      </div>
-    </div>
+      </S.CardListItems>
+    </S.CardListContainer>
   );
 };
 
