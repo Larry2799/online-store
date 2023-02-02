@@ -1,11 +1,11 @@
 import React from "react";
-import "./Card.css";
 import {
   stringifyDescription,
   buildSecondaryPrice,
 } from "./services/summaryBuilder";
 import { ICONS } from "../../constants/icons";
 import { CURRENCY } from "../../constants/currency";
+import * as S from "./Card.style";
 
 const Card = ({
   mark,
@@ -28,26 +28,24 @@ const Card = ({
   const secondaryPrice = buildSecondaryPrice(price.value, secondaryCurrency);
 
   return (
-    <div className="card__container">
-      <div className="card__image">
+    <S.CardContainer>
+      <S.CardImage>
         <img src={image} alt={`${mark} ${model}`} />
-      </div>
-      <div className="description">
-        <div className="card__summary">
-          <h3 className="main__description">
+      </S.CardImage>
+      <S.GlobalDescription>
+        <S.CardSummary>
+          <S.MainDescription>
             {`${mark} ${model} ${generation}`}
-          </h3>
-          <div className="card__price">
-            <div className="usd__price">{`${price.value}${price.currency}`}</div>
-            <div className="second__price">{secondaryPrice}</div>
-          </div>
-          <div className="card__description">{description}</div>
-        </div>
-        <div className="save__btn">
-          <img className="save__img" src={ICONS.BOOKMARK} alt="Bookmark icon" />
-        </div>
-      </div>
-    </div>
+          </S.MainDescription>
+          <S.CardPrice>
+            <S.MainPrice>{`${price.value}${price.currency}`}</S.MainPrice>
+            <S.SecondPrice>{secondaryPrice}</S.SecondPrice>
+          </S.CardPrice>
+          <S.CardDescription>{description}</S.CardDescription>
+        </S.CardSummary>
+        <S.SaveImage src={ICONS.BOOKMARK} alt="Bookmark icon" />
+      </S.GlobalDescription>
+    </S.CardContainer>
   );
 };
 

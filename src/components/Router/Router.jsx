@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Layout from "../Layout/Layout";
-import Profile from "../../pages/UserProfile";
-import Bookmarks from "../../pages/Bookmarks";
+import Profile from "../../pages/UserProfilePage";
+import Bookmarks from "../../pages/BookmarksPage";
 import Homepage from "../../pages/HomePage/Homepage";
 import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
-import SearchFilter from "../../pages/SearchFilter/SearchFilter";
+import SearchFilter from "../../pages/SearchFilterPage/SearchFilter";
 
 const Router = () => {
   return (

@@ -1,15 +1,16 @@
 import React from "react";
-import "./App.css";
 import Router from "./components/Router";
 import { BrowserRouter } from "react-router-dom";
+import * as S from "./App.style";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="wrapper">
+      <S.App>
         <Router />
-      </div>
+      </S.App>
     </BrowserRouter>
   );
 }
+
 export default App;
