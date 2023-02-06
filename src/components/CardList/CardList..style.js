@@ -7,6 +7,7 @@ export const CardListContainer = styled.div`
   flex: 1 1 auto;
   max-width: 100%;
 `;
+
 export const CardListItems = styled.div`
   display: flex;
   flex-direction: row;
