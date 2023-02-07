@@ -6,6 +6,7 @@ const theme = {
     blue: "#0e88df",
     yellow: "#FFE59E",
     grey: "#808080",
+    bgc: "#e9ecef",
   },
   fontSize: {
     smaller: "10px",

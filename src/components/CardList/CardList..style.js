@@ -15,5 +15,5 @@ export const CardListItems = styled.div`
   justify-content: center;
   margin: 0 80px;
   max-width: 100%;
-  background-color: #e9ecef;
+  background-color: ${(props) => props.theme.colors.bgc};
 `;
