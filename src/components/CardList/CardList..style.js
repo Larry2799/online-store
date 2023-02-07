@@ -7,6 +7,7 @@ export const CardListContainer = styled.div`
   flex: 1 1 auto;
   max-width: 100%;
 `;
+
 export const CardListItems = styled.div`
   display: flex;
   flex-direction: row;
@@ -14,5 +15,5 @@ export const CardListItems = styled.div`
   justify-content: center;
   margin: 0 80px;
   max-width: 100%;
-  background-color: #e9ecef;
+  background-color: ${(props) => props.theme.colors.bgc};
 `;

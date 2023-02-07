@@ -33,10 +33,9 @@ export const MainDescription = styled.h3`
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 20px;
-  font-family: "Open Sans", system-ui, sans-serif;
   cursor: pointer;
   outline: none;
-  color: #0e88df;
+  color: ${(props) => props.theme.colors.blue}; ;
 `;
 
 export const CardPrice = styled.div`
@@ -50,22 +49,21 @@ export const MainPrice = styled.div`
   margin-left: -3px;
   padding: 2px 5px 1px;
   border-radius: 4px;
-  font-size: 15px;
-  font-weight: 700;
-  background-color: rgb(255, 229, 158);
+  font-size: ${(props) => props.theme.fontSize.small};
+  font-weight: ${(props) => props.theme.fontWeight.extraBold};
+  background-color: ${(props) => props.theme.colors.yellow};
 `;
 
 export const SecondPrice = styled.div`
   justify-content: center;
   padding: 6px;
-  font-size: smaller;
-  color: grey;
+  font-size: ${(props) => props.theme.fontSize.small};
+  color: ${(props) => props.theme.colors.grey}; ;
 `;
 
 export const CardDescription = styled.div`
   line-height: 19px;
-  font-size: 13px;
-  font-family: "Open Sans", system-ui, sans-serif;
+  font-size: ${(props) => props.theme.fontSize.small};
 `;
 
 export const SaveImage = styled.img`
